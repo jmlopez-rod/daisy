@@ -1,83 +1,206 @@
-<!doctype html>
-<html class="no-js">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(.) styles/vendor.css -->
-    <!-- bower:css -->
-    <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css(.tmp) styles/main.css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!-- endbuild -->
-  </head>
-  <body ng-app="daisyApp">
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Daisy & Manuel's Wedding</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="icon" type="image/png" href="favicon.ico">
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+		<!-- Logo -->				
+			<div  id="logo">
+				<div class="bg1"></div>
+				<h1>Daisy & Manuel's Wedding</h1>
+				<h3>April 24th, 2015</h3>
+				<div class="bg2"></div>
+			</div>
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#wedding_events">Wedding Events</a></li>
+					<li><a href="#contact">Contact</a></li>
+					<li><a href="#rsvp">RSVP</a></li>
+				</ul>
+			</nav>
 
-        <div ng-view=""></div>
+		<!-- Home -->
+			<div class="wrapper style1 first" id="top">
+				<article class="container">
+					<img src="images/home1.png" alt="" width="" height="" />
+					<header>
+						<h1>Welcome</h1>
+						<p>Thank you for visiting our page.<br>We are excited to celebrate our special day with our family and friends.<br>Here you can find wedding day details and other information.</p>
+					</header>
+					
+				</article>
+			</div>
 
-    <!-- Add your site or application content here -->
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a ng-href="#">Home</a></li>
-          <li><a ng-href="#/about">About</a></li>
-          <li><a ng-href="#">Contact</a></li>
-        </ul>
-        <h3 class="text-muted">daisy</h3>
-      </div>
+		<!-- About -->
+			<div class="wrapper style2" id="about">
+				<article class="container">
+					<header>
+						<h1>About Us</h1>
+					</header>
+					<div class="paraph1">
+						<p>We're so thankful that we were introduced by our friends because we may not have met otherwise.</p>
+						<p>Manuel was born in California but was raised in Mexico. He came back to Houston, TX to finish up his studies and now works as a software developer for iOffice near Downtown, Houston.</p>
+					</div>
+					
+					<div class="paraph2">
+						<p>Daisy was born in Chicago but grew up in Houston, TX. She studied physician assistant studies and has been working for the past 6 years here in Houston.</p>
+						<p>We both enjoy going to the symphony, trying out new restaurants in the city, walks in the park, and playing video games! Though we come from different backgrounds, we balance each other very well.</p>
+					</div>
+					<div class="clear"></div>
+					<img src="images/about1.png" alt="" width="" height="" />
+				</article>
+			</div>
 
-      
+		<!-- Wedding Events -->
+			<div class="wrapper style3" id="wedding_events">
+				<article>
+					<header>
+						<h1>Wedding Events</h1>
+					</header>
+					<div class="container">
+						<div class="row">
+							<div class="4u">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/church.jpg" alt="" /></a>
+									<h3>Wedding Ceremony</h3>
+									<p>April 24, 2015<br>
+									2:30 pm<br><br>
+									Abiding Word Lutheran Church<br>
+									17123 Red Oak DR<br>
+									Houston, TX 77090<br>
+									<a target="_blank" href="http://maps.google.com/maps?daddr=17123 Red Oak DR,Houston,TX,77090,US">Get Directions »</a><br>
+									<a target="_blank" href="http://abidingword-wels.org/">View Website »</a></p>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
+									<div class="image featured"><iframe src="https://www.google.com/maps/d/embed?mid=zww7k_--I19Y.k_byHYgd3PdE"></iframe></div>
+									<h3>Map</h3>
+								</article>
+							</div>
+							<div class="4u">
+								<article class="box style2">
+									<a href="#" class="image featured"><img src="images/northgate.jpg" alt="" /></a>
+									<h3>Reception</h3>
+									<p>April 24, 2015<br>
+									7:00 pm - 11:00 pm<br><br>
+									Northgate Country Club<br>
+									17110 Northgate Forest Dr<br>
+									Houston, TX 77068<br>
+									<a target="_blank" href="http://maps.google.com/maps?daddr=17110 Northgate Forest Dr,Houston,TX,77068,US">Get Directions »</a><br>
+									<a target="_blank" href="http://www.northgatecountryclub.com/">View Website »</a></p>
+								</article>
+							</div>
+						</div>
+					</div>
+				</article>
+			</div>
 
-      <div class="footer">
-        <p><span class="glyphicon glyphicon-heart"></span></p>
-      </div>
-    </div>
+		<!-- Contact -->
+			<div class="wrapper style4" id="contact">
+				<article class="container 75%">
+					<header>
+						<h1>Contact Us</h1><br>
+						<p>Do you have a question or concern? Just want to say hi? Feel free to fill out the form below to send us a message!</p>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<form method="post" action="#">
+									<div>
+										<div class="row">
+											<div class="6u">
+												<input type="text" name="name" id="name" placeholder="Name" />
+											</div>
+											<div class="6u">
+												<input type="text" name="email" id="email" placeholder="Email" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<input type="text" name="subject" id="subject" placeholder="Subject" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="12u">
+												<textarea name="message" id="message" placeholder="Message"></textarea>
+											</div>
+										</div>
+										<div class="row 200%">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" /></li>
+													<li><input type="reset" value="Clear Form" class="alt" /></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</article>
+				<div class="swirl_bg"></div>
+			</div>
+			
+		<!-- RSVP -->
+			<div class="wrapper style5" id="rsvp">
+				<article class="container 75%">
+					<header>
+						<h1>RSVP</h1><br>
+						<p>Enter your name below to RSVP to our wedding events.</p>
+					</header>
+					<div>
+						<div class="row">
+							<div class="12u">
+								<form method="post" action="#">
+									<div>
+										<div class="row">
+											<div class="6u">
+												<input type="text" name="fname" id="fname" placeholder="Name" />
+											</div>
+											<div class="6u">
+												<input type="text" name="lname" id="lname" placeholder="Last Name" />
+											</div>
+										</div>
+										<div class="row 200%">
+											<div class="12u">
+												<ul class="actions">
+													<li><input type="submit" value="Search" /></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<footer>
+						<ul id="copyright">
+							<li>&copy; Daisy & Manuel. All rights reserved.</li>
+						</ul>
+					</footer>
+				</article>
+			</div>
 
-
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
-     <script>
-       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-       ga('create', 'UA-XXXXX-X');
-       ga('send', 'pageview');
-    </script>
-
-    <!-- build:js(.) scripts/oldieshim.js -->
-    <!--[if lt IE 9]>
-    <script src="bower_components/es5-shim/es5-shim.js"></script>
-    <script src="bower_components/json3/lib/json3.js"></script>
-    <![endif]-->
-    <!-- endbuild -->
-
-    <!-- build:js(.) scripts/vendor.js -->
-    <!-- bower:js -->
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js"></script>
-    <script src="bower_components/angular-animate/angular-animate.js"></script>
-    <script src="bower_components/angular-aria/angular-aria.js"></script>
-    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-    <script src="bower_components/angular-messages/angular-messages.js"></script>
-    <script src="bower_components/angular-resource/angular-resource.js"></script>
-    <script src="bower_components/angular-route/angular-route.js"></script>
-    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
-    <script src="bower_components/angular-touch/angular-touch.js"></script>
-    <!-- endbower -->
-    <!-- endbuild -->
-
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
-        <script src="scripts/controllers/about.js"></script>
-        <!-- endbuild -->
-</body>
+	</body>
 </html>
